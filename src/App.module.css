@@ -7,3 +7,22 @@ body {
   align-items: center;
   justify-content: center;
 }
+.image {
+  width: 100px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Amaranth", Courier, monospace;
+}
+.smalltxt {
+  font-size: 10px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 770px) {
+  .container {
+    margin: 0 10%;
+  }
+}
